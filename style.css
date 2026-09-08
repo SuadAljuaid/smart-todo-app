@@ -1,0 +1,71 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f4f7fe;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #f9fafb;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-right: 4px solid #4f46e5;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  border-right-color: #10b981;
+}
+
+.delete-btn {
+  background: #ef4444;
+  padding: 5px 10px;
+  font-size: 12px;
+}
